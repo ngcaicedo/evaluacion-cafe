@@ -1,0 +1,72 @@
+.titulo {
+    font-family: 'Inder', sans-serif;
+    ;
+    font-size: 36px;
+}
+
+.custom-line {
+    border: none;
+    border-top: 1px solid #333;
+    width: 80%;
+    /* Mismo ancho que la imagen */
+}
+
+.imagen-cafe {
+    width: 80%;
+    /* Ajusta esto al tamaño deseado */
+    display: block;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.styled-table thead tr {
+    background-color: #333;
+    /* Color de fondo para el encabezado */
+    color: white;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+    /* Color de fondo para filas pares */
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+    /* Color al pasar el mouse */
+}
+
+.styled-table td:first-child {
+    font-weight: bold;
+    /* Negrita para la primera columna */
+    text-align: center;
+}
+
+.totales {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+
+.totales p:first-child {
+    margin-bottom: 0px;
+}
+
